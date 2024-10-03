@@ -22,10 +22,10 @@ class DBService extends ChangeNotifier {
           'id INTEGER PRIMARY KEY AUTOINCREMENT, '
           'barcode TEXT, '
           'product_name TEXT, '
-          'nutriscore_score TEXT, ' // Make sure this column exists
+          'nutriscore_score TEXT, '
           'nutriscore_grade TEXT, '
           'image_url TEXT, '
-          'scan_date TEXT' // Add scan_date if necessary
+          'scan_date TEXT'
           ')',
         );
       },
